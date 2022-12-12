@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-name {
+    cursor: pointer;
+    color: rgb(250, 20, 193);
+    font-size: 40px;
+    margin: 10px;
+}

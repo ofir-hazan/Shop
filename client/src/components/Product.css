@@ -1,0 +1,31 @@
+.allCard{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 10px 10px;
+    border: 2px rgb(250, 20, 193) solid;
+    background-color: rgba(156, 228, 239, 0.59);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: 25px;
+    margin: 0;
+}
+
+.price{
+    font-size: 15px;
+    margin: 0;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+}

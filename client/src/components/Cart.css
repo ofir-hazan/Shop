@@ -1,0 +1,11 @@
+.cart-summary {
+    float: right;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.total-price {
+    font-size: 25px;
+    margin: 0;
+}
