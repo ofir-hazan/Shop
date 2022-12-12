@@ -1,3 +1,13 @@
+.form {
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+}
+
+.form-label {
+    margin-bottom: 10px;
+}
+
 .cart-summary {
     float: right;
     margin: 10px;

@@ -14,6 +14,7 @@ function Shop() {
   const addProductToCart = (product) => {
     let tempShoppingCart = [...shoppingCart];
     const newProduct = {...product};
+    // Check if the product is already in the cart
     if (shoppingCart.findIndex((cartProduct) => cartProduct.title === newProduct.title) !== -1) {
       let productIndex = tempShoppingCart.findIndex((cartProduct) => cartProduct.title === newProduct.title);
       tempShoppingCart[productIndex] = {...tempShoppingCart[productIndex], amount: tempShoppingCart[productIndex].amount + 1, }
