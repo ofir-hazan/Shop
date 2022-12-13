@@ -39,6 +39,7 @@ function Cart() {
             })
             .then(() => {
                 setShoppingCart([]);
+                alert("Shopping cart was sent successfully");
             })
             .catch((err) => {
                 console.log(err);

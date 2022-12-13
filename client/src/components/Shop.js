@@ -22,6 +22,8 @@ function Shop() {
     } else {
       setShoppingCart([...tempShoppingCart, {...newProduct, amount: 1}]);
     }
+
+    alert("Product added to cart successfully");
   }
 
   const showShoppingCart = () => {
